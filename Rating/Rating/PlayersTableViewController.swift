@@ -46,9 +46,16 @@ class PlayersTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("PlayerCell", forIndexPath: indexPath) as! UITableViewCell
         
         let player = players[indexPath.row] as Player
-        cell.textLabel?.text = player.name
-        cell.detailTextLabel?.text = player.game
-
+        if let nameLabel = cell.viewWithTag(100) as? UILabel{
+            nameLabel.text = player.name
+        }
+        if let gameLabel = cell.viewWithTag(101) as? UILabel{
+            gameLabel.text = player.game
+        }
+        
+        if let starImag = cell.viewWithTag(102) as? UIImageView{
+            starImag.image = self.imageForRating(player.rating)
+        }
         return cell
     }
     
@@ -97,5 +104,21 @@ class PlayersTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    func imageForRating(rating:Int) -> UIImage?{
+        switch rating{
+        case 1:
+            return UIImage(named: "1StarSmall")
+        case 2:
+            return UIImage(named: "2StarsSmall")
+        case 3:
+            return UIImage(named: "3StarsSmall")
+        case 4:
+            return UIImage(named: "4StarsSmall")
+        case 5:
+            return UIImage(named: "5StarsSmall")
+        default:
+            return nil
+        }
+    }
 }
