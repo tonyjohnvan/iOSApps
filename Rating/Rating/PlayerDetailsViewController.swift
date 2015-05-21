@@ -12,6 +12,14 @@ class PlayerDetailsViewController: UITableViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var detailLabel: UILabel!
     
+    var player:Player!
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "SavePlayerDetail" {
+            player = Player(name: self.nameTextField.text, game: "Baga", rating: 5)
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +36,10 @@ class PlayerDetailsViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: - Table view data source
-    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.section == 0 {
+            nameTextField.becomeFirstResponder()
+        }
+    }
     
 }

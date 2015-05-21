@@ -17,7 +17,12 @@ class PlayersTableViewController: UITableViewController {
     }
     
     @IBAction func savePlayerDetail(segue:UIStoryboardSegue) {
-        
+        if let playerDetailVC = segue.sourceViewController as? PlayerDetailsViewController {
+            players.append(playerDetailVC.player)
+            
+            let indexPath = NSIndexPath(forRow: players.count-1, inSection: 0)
+            tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        }
     }
     
 
