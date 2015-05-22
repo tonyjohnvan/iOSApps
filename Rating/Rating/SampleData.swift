@@ -13,3 +13,11 @@ import Foundation
 let playersData = [Player(name: "Bill", game: "TTT", rating: 4),
 Player(name: "John", game: "AAA", rating: 5),
 Player(name: "Sm", game: "Baga", rating: 2)]
+
+
+let games = ["Angry Birds",
+"Chess",
+"Russian Roulette",
+"Spin the Bottle",
+"Texas Hold'em Poker",
+"Tic-Tac-Toe"]

@@ -11,6 +11,20 @@ import UIKit
 class PlayersTableViewController: UITableViewController {
     
     var players = playersData
+    
+    @IBAction func cancelToPlayersViewController(segue:UIStoryboardSegue) {
+        
+    }
+    
+    @IBAction func savePlayerDetail(segue:UIStoryboardSegue) {
+        if let playerDetailVC = segue.sourceViewController as? PlayerDetailsViewController {
+            players.append(playerDetailVC.player)
+            
+            let indexPath = NSIndexPath(forRow: players.count-1, inSection: 0)
+            tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        }
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,19 +57,13 @@ class PlayersTableViewController: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("PlayerCell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("PlayerCell", forIndexPath: indexPath) as! PlayerCell
         
         let player = players[indexPath.row] as Player
-        if let nameLabel = cell.viewWithTag(100) as? UILabel{
-            nameLabel.text = player.name
-        }
-        if let gameLabel = cell.viewWithTag(101) as? UILabel{
-            gameLabel.text = player.game
-        }
+        cell.nameLabel.text = player.name
+        cell.gameLabel.text = player.game
+        cell.ratingImageView.image = self.imageForRating(player.rating)
         
-        if let starImag = cell.viewWithTag(102) as? UIImageView{
-            starImag.image = self.imageForRating(player.rating)
-        }
         return cell
     }
     
