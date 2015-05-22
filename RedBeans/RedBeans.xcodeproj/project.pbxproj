@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BEEFBC9E1B0EBD24004F3C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBC9D1B0EBD24004F3C7C /* AppDelegate.swift */; };
-		BEEFBCA01B0EBD24004F3C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBC9F1B0EBD24004F3C7C /* ViewController.swift */; };
+		BEEFBCA01B0EBD24004F3C7C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBC9F1B0EBD24004F3C7C /* HomeVC.swift */; };
 		BEEFBCA31B0EBD24004F3C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCA11B0EBD24004F3C7C /* Main.storyboard */; };
 		BEEFBCA51B0EBD24004F3C7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCA41B0EBD24004F3C7C /* Images.xcassets */; };
 		BEEFBCA81B0EBD24004F3C7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCA61B0EBD24004F3C7C /* LaunchScreen.xib */; };
 		BEEFBCB41B0EBD24004F3C7C /* RedBeansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBCB31B0EBD24004F3C7C /* RedBeansTests.swift */; };
+		BEEFBCC51B0EC047004F3C7C /* home_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCC11B0EC047004F3C7C /* home_1.jpg */; };
+		BEEFBCC61B0EC047004F3C7C /* home_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCC21B0EC047004F3C7C /* home_2.jpg */; };
+		BEEFBCC71B0EC047004F3C7C /* home_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCC31B0EC047004F3C7C /* home_3.jpg */; };
+		BEEFBCC81B0EC047004F3C7C /* home_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCC41B0EC047004F3C7C /* home_overlay.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		BEEFBC981B0EBD24004F3C7C /* RedBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEFBC9C1B0EBD24004F3C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEFBC9D1B0EBD24004F3C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEEFBC9F1B0EBD24004F3C7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEEFBC9F1B0EBD24004F3C7C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BEEFBCA21B0EBD24004F3C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEEFBCA41B0EBD24004F3C7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEEFBCA71B0EBD24004F3C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BEEFBCAD1B0EBD24004F3C7C /* RedBeansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBeansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEFBCB21B0EBD24004F3C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEFBCB31B0EBD24004F3C7C /* RedBeansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeansTests.swift; sourceTree = "<group>"; };
+		BEEFBCC11B0EC047004F3C7C /* home_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_1.jpg; sourceTree = "<group>"; };
+		BEEFBCC21B0EC047004F3C7C /* home_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_2.jpg; sourceTree = "<group>"; };
+		BEEFBCC31B0EC047004F3C7C /* home_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_3.jpg; sourceTree = "<group>"; };
+		BEEFBCC41B0EC047004F3C7C /* home_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_overlay.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,11 @@
 		BEEFBC9A1B0EBD24004F3C7C /* RedBeans */ = {
 			isa = PBXGroup;
 			children = (
+				BEEFBCC01B0EC047004F3C7C /* images */,
+				BEEFBCBF1B0EBDFA004F3C7C /* Controller */,
+				BEEFBCBE1B0EBDF3004F3C7C /* Model */,
+				BEEFBCBD1B0EBDE3004F3C7C /* View */,
 				BEEFBC9D1B0EBD24004F3C7C /* AppDelegate.swift */,
-				BEEFBC9F1B0EBD24004F3C7C /* ViewController.swift */,
 				BEEFBCA11B0EBD24004F3C7C /* Main.storyboard */,
 				BEEFBCA41B0EBD24004F3C7C /* Images.xcassets */,
 				BEEFBCA61B0EBD24004F3C7C /* LaunchScreen.xib */,
@@ -110,6 +121,39 @@
 				BEEFBCB21B0EBD24004F3C7C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEEFBCBD1B0EBDE3004F3C7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEEFBC9F1B0EBD24004F3C7C /* HomeVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BEEFBCBE1B0EBDF3004F3C7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BEEFBCBF1B0EBDFA004F3C7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BEEFBCC01B0EC047004F3C7C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BEEFBCC11B0EC047004F3C7C /* home_1.jpg */,
+				BEEFBCC21B0EC047004F3C7C /* home_2.jpg */,
+				BEEFBCC31B0EC047004F3C7C /* home_3.jpg */,
+				BEEFBCC41B0EC047004F3C7C /* home_overlay.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +236,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEFBCC81B0EC047004F3C7C /* home_overlay.png in Resources */,
 				BEEFBCA31B0EBD24004F3C7C /* Main.storyboard in Resources */,
 				BEEFBCA81B0EBD24004F3C7C /* LaunchScreen.xib in Resources */,
+				BEEFBCC71B0EC047004F3C7C /* home_3.jpg in Resources */,
+				BEEFBCC51B0EC047004F3C7C /* home_1.jpg in Resources */,
+				BEEFBCC61B0EC047004F3C7C /* home_2.jpg in Resources */,
 				BEEFBCA51B0EBD24004F3C7C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEEFBCA01B0EBD24004F3C7C /* ViewController.swift in Sources */,
+				BEEFBCA01B0EBD24004F3C7C /* HomeVC.swift in Sources */,
 				BEEFBC9E1B0EBD24004F3C7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RedBeans/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RedBeans/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
