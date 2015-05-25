@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEE49C8F1B12E878004B4B5A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE49C8E1B12E878004B4B5A /* SignUpVC.swift */; };
+		BEE49C911B12EF86004B4B5A /* signupOr.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE49C901B12EF86004B4B5A /* signupOr.png */; };
+		BEE49C941B12F0F2004B4B5A /* Sina.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE49C921B12F0F2004B4B5A /* Sina.png */; };
+		BEE49C951B12F0F2004B4B5A /* FB.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE49C931B12F0F2004B4B5A /* FB.png */; };
+		BEE49C981B12FF57004B4B5A /* tab_btn_female.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE49C961B12FF57004B4B5A /* tab_btn_female.png */; };
+		BEE49C991B12FF57004B4B5A /* tab_btn_male.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE49C971B12FF57004B4B5A /* tab_btn_male.png */; };
+		BEE49C9B1B13000B004B4B5A /* profilesettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE49C9A1B13000B004B4B5A /* profilesettingVC.swift */; };
+		BEE49C9D1B137E66004B4B5A /* SignUpGuideOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE49C9C1B137E66004B4B5A /* SignUpGuideOneVC.swift */; };
+		BEE49C9F1B138E99004B4B5A /* SignUpGuideTowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE49C9E1B138E99004B4B5A /* SignUpGuideTowVC.swift */; };
+		BEE49CA11B139345004B4B5A /* EditingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE49CA01B139345004B4B5A /* EditingDetailVC.swift */; };
 		BEEFBC9E1B0EBD24004F3C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBC9D1B0EBD24004F3C7C /* AppDelegate.swift */; };
 		BEEFBCA01B0EBD24004F3C7C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFBC9F1B0EBD24004F3C7C /* HomeVC.swift */; };
 		BEEFBCA31B0EBD24004F3C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEFBCA11B0EBD24004F3C7C /* Main.storyboard */; };
@@ -30,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEE49C8E1B12E878004B4B5A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		BEE49C901B12EF86004B4B5A /* signupOr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupOr.png; sourceTree = "<group>"; };
+		BEE49C921B12F0F2004B4B5A /* Sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sina.png; sourceTree = "<group>"; };
+		BEE49C931B12F0F2004B4B5A /* FB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FB.png; sourceTree = "<group>"; };
+		BEE49C961B12FF57004B4B5A /* tab_btn_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_btn_female.png; sourceTree = "<group>"; };
+		BEE49C971B12FF57004B4B5A /* tab_btn_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_btn_male.png; sourceTree = "<group>"; };
+		BEE49C9A1B13000B004B4B5A /* profilesettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profilesettingVC.swift; sourceTree = "<group>"; };
+		BEE49C9C1B137E66004B4B5A /* SignUpGuideOneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpGuideOneVC.swift; sourceTree = "<group>"; };
+		BEE49C9E1B138E99004B4B5A /* SignUpGuideTowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpGuideTowVC.swift; sourceTree = "<group>"; };
+		BEE49CA01B139345004B4B5A /* EditingDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingDetailVC.swift; sourceTree = "<group>"; };
 		BEEFBC981B0EBD24004F3C7C /* RedBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEFBC9C1B0EBD24004F3C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEFBC9D1B0EBD24004F3C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +147,11 @@
 			isa = PBXGroup;
 			children = (
 				BEEFBC9F1B0EBD24004F3C7C /* HomeVC.swift */,
+				BEE49C8E1B12E878004B4B5A /* SignUpVC.swift */,
+				BEE49C9E1B138E99004B4B5A /* SignUpGuideTowVC.swift */,
+				BEE49CA01B139345004B4B5A /* EditingDetailVC.swift */,
+				BEE49C9A1B13000B004B4B5A /* profilesettingVC.swift */,
+				BEE49C9C1B137E66004B4B5A /* SignUpGuideOneVC.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -149,7 +174,12 @@
 			isa = PBXGroup;
 			children = (
 				BEEFBCC11B0EC047004F3C7C /* home_1.jpg */,
+				BEE49C901B12EF86004B4B5A /* signupOr.png */,
 				BEEFBCC21B0EC047004F3C7C /* home_2.jpg */,
+				BEE49C921B12F0F2004B4B5A /* Sina.png */,
+				BEE49C961B12FF57004B4B5A /* tab_btn_female.png */,
+				BEE49C971B12FF57004B4B5A /* tab_btn_male.png */,
+				BEE49C931B12F0F2004B4B5A /* FB.png */,
 				BEEFBCC31B0EC047004F3C7C /* home_3.jpg */,
 				BEEFBCC41B0EC047004F3C7C /* home_overlay.png */,
 			);
@@ -236,12 +266,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE49C951B12F0F2004B4B5A /* FB.png in Resources */,
 				BEEFBCC81B0EC047004F3C7C /* home_overlay.png in Resources */,
 				BEEFBCA31B0EBD24004F3C7C /* Main.storyboard in Resources */,
+				BEE49C941B12F0F2004B4B5A /* Sina.png in Resources */,
 				BEEFBCA81B0EBD24004F3C7C /* LaunchScreen.xib in Resources */,
 				BEEFBCC71B0EC047004F3C7C /* home_3.jpg in Resources */,
 				BEEFBCC51B0EC047004F3C7C /* home_1.jpg in Resources */,
+				BEE49C991B12FF57004B4B5A /* tab_btn_male.png in Resources */,
 				BEEFBCC61B0EC047004F3C7C /* home_2.jpg in Resources */,
+				BEE49C981B12FF57004B4B5A /* tab_btn_female.png in Resources */,
+				BEE49C911B12EF86004B4B5A /* signupOr.png in Resources */,
 				BEEFBCA51B0EBD24004F3C7C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEFBCA01B0EBD24004F3C7C /* HomeVC.swift in Sources */,
+				BEE49CA11B139345004B4B5A /* EditingDetailVC.swift in Sources */,
+				BEE49C9B1B13000B004B4B5A /* profilesettingVC.swift in Sources */,
+				BEE49C8F1B12E878004B4B5A /* SignUpVC.swift in Sources */,
 				BEEFBC9E1B0EBD24004F3C7C /* AppDelegate.swift in Sources */,
+				BEE49C9F1B138E99004B4B5A /* SignUpGuideTowVC.swift in Sources */,
+				BEE49C9D1B137E66004B4B5A /* SignUpGuideOneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +499,7 @@
 				BEEFBCB91B0EBD24004F3C7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEEFBCBA1B0EBD24004F3C7C /* Build configuration list for PBXNativeTarget "RedBeansTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +508,7 @@
 				BEEFBCBC1B0EBD24004F3C7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

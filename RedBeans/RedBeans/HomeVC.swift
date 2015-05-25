@@ -34,7 +34,19 @@ class HomeVC: UIViewController {
         btn_login.layer.cornerRadius = 5
         btn_login.layer.borderWidth = 1
         btn_login.layer.borderColor = UIColor.whiteColor().CGColor
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage.new(), forBarMetrics: UIBarMetrics.Default)
+        self.navigationController?.navigationBar.shadowImage = UIImage
+        .new()
+        self.navigationController?.navigationBar.translucent = true
+        self.navigationController?.view.backgroundColor = UIColor.clearColor()
     }
+    
+    //segue
+    @IBAction func backtoHome(segue:UIStoryboardSegue){
+        
+    }
+    
 
 }
 
