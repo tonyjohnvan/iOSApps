@@ -15,7 +15,7 @@ import UIKit
 class CustomizedTabBarController: UITabBarController {
     
     override func viewWillLayoutSubviews() {
-        let tbh: CGFloat = 60
+        let tbh: CGFloat = 65
         self.tabBar.frame.size.height = tbh
         self.tabBar.frame.origin.y = self.view.frame.size.height - tbh - 5
         
