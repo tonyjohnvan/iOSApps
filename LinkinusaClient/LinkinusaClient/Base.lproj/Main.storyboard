@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
@@ -221,10 +221,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="328" height="199"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="501" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DFD36A3B-437E-40E1-99E7-3549D403B95D" translatesAutoresizingMaskIntoConstraints="NO" id="wVF-Ev-5d9">
+                                                <imageView userInteractionEnabled="NO" tag="501" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="E41A52A8-CFCF-445A-BF42-70A30FEADCBF" translatesAutoresizingMaskIntoConstraints="NO" id="wVF-Ev-5d9">
                                                     <rect key="frame" x="8" y="8" width="312" height="183"/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" tag="502" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="60A5009C-D3DB-4860-B4E3-17B500F08699" translatesAutoresizingMaskIntoConstraints="NO" id="3F3-WT-XAE">
+                                                <imageView userInteractionEnabled="NO" tag="502" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7704BE2D-8610-41D5-BB3F-28228C2B5A3E" translatesAutoresizingMaskIntoConstraints="NO" id="3F3-WT-XAE">
                                                     <rect key="frame" x="18" y="23" width="58" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="9KN-Eq-soW"/>
@@ -257,6 +257,9 @@
                                                         <constraint firstAttribute="height" constant="30" id="Yb6-xf-Rxg"/>
                                                     </constraints>
                                                     <state key="normal" title="回复留言"/>
+                                                    <connections>
+                                                        <action selector="replyAction:" destination="8nu-Nu-5sG" eventType="touchUpInside" id="LXN-Dv-2VT"/>
+                                                    </connections>
                                                 </button>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOg-p5-e1c" userLabel="seperator">
                                                     <rect key="frame" x="10" y="114" width="308" height="1"/>
@@ -806,7 +809,8 @@
         <image name="4" width="125" height="125"/>
         <image name="5" width="125" height="125"/>
         <image name="6" width="125" height="125"/>
-        <image name="60A5009C-D3DB-4860-B4E3-17B500F08699" width="75" height="42">
+        <image name="7" width="125" height="125"/>
+        <image name="7704BE2D-8610-41D5-BB3F-28228C2B5A3E" width="75" height="42">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -1086,12 +1090,11 @@ PyI/Kz8+P0I/VT9gP2k/bj92P3k/fj+NP5E/mD+gP60/sj+0P7Y/uz/DP8Y/yz/TP9Y/6D/rP/AAAAAA
 AAACAQAAAAAAAAA/AAAAAAAAAAAAAAAAAAA/8g
 </mutableData>
         </image>
-        <image name="7" width="125" height="125"/>
         <image name="8" width="125" height="125"/>
         <image name="9" width="125" height="125"/>
         <image name="BG" width="621" height="1104"/>
         <image name="BackDelete" width="60" height="45"/>
-        <image name="DFD36A3B-437E-40E1-99E7-3549D403B95D" width="587" height="328">
+        <image name="E41A52A8-CFCF-445A-BF42-70A30FEADCBF" width="587" height="328">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

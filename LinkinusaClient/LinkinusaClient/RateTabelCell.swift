@@ -24,6 +24,10 @@ class RateTabelCell: UITableViewCell {
     
     @IBOutlet weak var btnReply: UIButton!
     
+    
+    @IBAction func replyAction(sender: UIButton) {
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

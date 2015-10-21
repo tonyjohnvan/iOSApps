@@ -74,9 +74,18 @@ class RatingVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         default: cell.imageRate.image = UIImage(named: "1sr")
         }
         
+        cell.btnReply.tag = indexPath.row
+        cell.btnReply.addTarget(self, action: "cellButtonClicked:", forControlEvents: UIControlEvents.TouchUpInside)
         
         return cell
 //        return UITableViewCell()
+    }
+    
+    func cellButtonClicked(sender:UIButton) {
+        
+        let buttonRow = sender.tag
+        
+        print("Button \(buttonRow) tapped")
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
