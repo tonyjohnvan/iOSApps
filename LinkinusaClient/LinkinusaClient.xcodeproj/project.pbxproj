@@ -16,7 +16,9 @@
 		BE2068151BB7424D0060087A /* LinkinusaClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2068141BB7424D0060087A /* LinkinusaClientTests.swift */; };
 		BE2068201BB7424D0060087A /* LinkinusaClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20681F1BB7424D0060087A /* LinkinusaClientUITests.swift */; };
 		BE64B6321BBBA04600AF99E4 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64B6311BBBA04600AF99E4 /* UIDevice.swift */; settings = {ASSET_TAGS = (); }; };
+		BE7FB4111BD7610800CC14A9 /* RateTabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB4101BD7610800CC14A9 /* RateTabelCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BE8AB9A21BD7048C00FF06C4 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */; settings = {ASSET_TAGS = (); }; };
+		BE9D53CA1BD7187E0090FCDB /* RatingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D53C91BD7187E0090FCDB /* RatingData.swift */; settings = {ASSET_TAGS = (); }; };
 		BEFDC5331BBB6E1F000262A6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */; settings = {ASSET_TAGS = (); }; };
 		BEFDC5351BBB7D4B000262A6 /* CustomizedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -54,7 +56,9 @@
 		BE20681F1BB7424D0060087A /* LinkinusaClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkinusaClientUITests.swift; sourceTree = "<group>"; };
 		BE2068211BB7424D0060087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE64B6311BBBA04600AF99E4 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		BE7FB4101BD7610800CC14A9 /* RateTabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateTabelCell.swift; sourceTree = "<group>"; };
 		BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		BE9D53C91BD7187E0090FCDB /* RatingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingData.swift; sourceTree = "<group>"; };
 		BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +111,7 @@
 		BE2067FE1BB7424D0060087A /* LinkinusaClient */ = {
 			isa = PBXGroup;
 			children = (
+				BE9D53C81BD7186A0090FCDB /* Data */,
 				BEFDC52F1BBB6DBF000262A6 /* Views */,
 				BE2067FF1BB7424D0060087A /* AppDelegate.swift */,
 				BE2068011BB7424D0060087A /* ViewController.swift */,
@@ -137,6 +142,14 @@
 			path = LinkinusaClientUITests;
 			sourceTree = "<group>";
 		};
+		BE9D53C81BD7186A0090FCDB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D53C91BD7187E0090FCDB /* RatingData.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		BEFDC52F1BBB6DBF000262A6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +157,7 @@
 				BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */,
 				BE174EA81BBB8A8100EE759F /* VerifyVC.swift */,
 				BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */,
+				BE7FB4101BD7610800CC14A9 /* RateTabelCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -283,6 +297,8 @@
 			files = (
 				BE174EA91BBB8A8100EE759F /* VerifyVC.swift in Sources */,
 				BE64B6321BBBA04600AF99E4 /* UIDevice.swift in Sources */,
+				BE7FB4111BD7610800CC14A9 /* RateTabelCell.swift in Sources */,
+				BE9D53CA1BD7187E0090FCDB /* RatingData.swift in Sources */,
 				BEFDC5351BBB7D4B000262A6 /* CustomizedTabBarController.swift in Sources */,
 				BEFDC5331BBB6E1F000262A6 /* LoginVC.swift in Sources */,
 				BE8AB9A21BD7048C00FF06C4 /* RatingVC.swift in Sources */,
