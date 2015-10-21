@@ -16,6 +16,7 @@
 		BE2068151BB7424D0060087A /* LinkinusaClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2068141BB7424D0060087A /* LinkinusaClientTests.swift */; };
 		BE2068201BB7424D0060087A /* LinkinusaClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20681F1BB7424D0060087A /* LinkinusaClientUITests.swift */; };
 		BE64B6321BBBA04600AF99E4 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64B6311BBBA04600AF99E4 /* UIDevice.swift */; settings = {ASSET_TAGS = (); }; };
+		BE8AB9A21BD7048C00FF06C4 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */; settings = {ASSET_TAGS = (); }; };
 		BEFDC5331BBB6E1F000262A6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */; settings = {ASSET_TAGS = (); }; };
 		BEFDC5351BBB7D4B000262A6 /* CustomizedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		BE20681F1BB7424D0060087A /* LinkinusaClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkinusaClientUITests.swift; sourceTree = "<group>"; };
 		BE2068211BB7424D0060087A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE64B6311BBBA04600AF99E4 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
 		BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */,
 				BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */,
 				BE174EA81BBB8A8100EE759F /* VerifyVC.swift */,
+				BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				BE64B6321BBBA04600AF99E4 /* UIDevice.swift in Sources */,
 				BEFDC5351BBB7D4B000262A6 /* CustomizedTabBarController.swift in Sources */,
 				BEFDC5331BBB6E1F000262A6 /* LoginVC.swift in Sources */,
+				BE8AB9A21BD7048C00FF06C4 /* RatingVC.swift in Sources */,
 				BE2068021BB7424D0060087A /* ViewController.swift in Sources */,
 				BE2068001BB7424D0060087A /* AppDelegate.swift in Sources */,
 			);
