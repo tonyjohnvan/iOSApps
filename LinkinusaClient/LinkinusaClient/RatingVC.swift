@@ -86,6 +86,34 @@ class RatingVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let buttonRow = sender.tag
         
         print("Button \(buttonRow) tapped")
+        
+        //1. Create the alert controller.
+        let alert = UIAlertController(title: "\(rates[buttonRow].username!)的留言", message: rates[buttonRow].content, preferredStyle: .Alert)
+        
+        //2. Add the text field. You can configure it however you need.
+        alert.addTextFieldWithConfigurationHandler({ (textField) -> Void in
+            textField.text = "感谢您的支持"
+        })
+        
+        //3. Grab the value from the text field, and print it when the user clicks OK.
+        alert.addAction(UIAlertAction(title: "留言", style: .Default, handler: { (action) -> Void in
+            let textField = alert.textFields![0] as UITextField
+            
+            // TODO: Please Modify here for Backend API Access
+            print("Text field: \(textField.text)")
+        }))
+        
+        //4. add Cancel for nothing
+        
+        //3. Grab the value from the text field, and print it when the user clicks OK.
+        alert.addAction(UIAlertAction(title: "取消", style: .Default, handler: { (action) -> Void in
+            let textField = alert.textFields![0] as UITextField
+            print("Text field: \(textField.text!) Canceled")
+        }))
+        
+        //5. Present the alert.
+        self.presentViewController(alert, animated: true, completion: nil)
+        
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
