@@ -31,36 +31,36 @@ struct OrderAll {
 let OrderAllData = [
     OrderAll(
         orderName: "你永远猜不到这会是一个多么神奇的产品名字",
-        oringinalPrice: "28.1",
-        price: "200",
+        oringinalPrice: "123.00",
+        price: "12.00",
         sold: 120,
         redeemed: 64
     ),
     OrderAll(
-        orderName: "产品名字 很长 很长",
-        oringinalPrice: "28.1",
-        price: "200",
+        orderName: "产品名字 很长 很长 很长 很长 很长 很长 很长 很长",
+        oringinalPrice: "354.00",
+        price: "12.00",
         sold: 120,
         redeemed: 64
     ),
     OrderAll(
         orderName: "阿西吧",
-        oringinalPrice: "28.1",
-        price: "200",
+        oringinalPrice: "2,345.00",
+        price: "123.00",
         sold: 120,
         redeemed: 64
     ),
     OrderAll(
         orderName: "一只沉默的蛋糕",
-        oringinalPrice: "28.1",
-        price: "200",
+        oringinalPrice: "34.00",
+        price: "23.00",
         sold: 120,
         redeemed: 64
     ),
     OrderAll(
         orderName: "应该没有这么多吧。。。",
-        oringinalPrice: "28.1",
-        price: "200",
+        oringinalPrice: "345.00",
+        price: "12.00",
         sold: 120,
         redeemed: 64
     )

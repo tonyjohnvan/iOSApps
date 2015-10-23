@@ -23,12 +23,16 @@ class OrderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Select All Orders and show allOrderTV(TabelView)
         // 1. Change BGImg
         topTabBG.image = UIImage(named: "topTab")
+        
+        allOrderTV.hidden = false
     }
     
     @IBAction func btnOrderDetailAct(sender: UIButton) {
         // Select Orders Detail and show orderDetailTV(TabelView)
         // 1. Change BGImg
         topTabBG.image = UIImage(named: "topTab_2")
+        
+        allOrderTV.hidden = true
     }
     
     // table...
@@ -74,10 +78,16 @@ class OrderVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell.backgroundColor = UIColor.clearColor()
         
         cell.lblOrderName.text = oneAllOrder.orderName
-        cell.lblOrignalPrice.text = oneAllOrder.oringinalPrice
-        cell.lblPrice.text = oneAllOrder.price
-        cell.lblSold.text = "$\(oneAllOrder.sold)"
-        cell.lblRedeemed.text = "$\(oneAllOrder.redeemed)"
+        
+        // add a stroke through the price
+        let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: "$\(oneAllOrder.oringinalPrice)")
+        attributeString.addAttribute(NSStrikethroughStyleAttributeName, value: 1, range: NSMakeRange(0, attributeString.length))
+        cell.lblOrignalPrice.attributedText = attributeString
+        
+//        cell.lblOrignalPrice.text = "$\(oneAllOrder.oringinalPrice)"
+        cell.lblPrice.text = "$\(oneAllOrder.price)"
+        cell.lblSold.text = "\(oneAllOrder.sold)"
+        cell.lblRedeemed.text = "\(oneAllOrder.redeemed)"
         
         return cell
 //        return UITableViewCell()
