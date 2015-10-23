@@ -22,6 +22,8 @@
 		BE7FB4111BD7610800CC14A9 /* RateTabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB4101BD7610800CC14A9 /* RateTabelCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BE8AB9A21BD7048C00FF06C4 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */; settings = {ASSET_TAGS = (); }; };
 		BE9D53CA1BD7187E0090FCDB /* RatingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D53C91BD7187E0090FCDB /* RatingData.swift */; settings = {ASSET_TAGS = (); }; };
+		BE9FB0AB1BD9FAEC00372026 /* OrderDetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FB0AA1BD9FAEC00372026 /* OrderDetailTableCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BE9FB0AD1BD9FB9B00372026 /* OrderDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9FB0AC1BD9FB9B00372026 /* OrderDetailData.swift */; settings = {ASSET_TAGS = (); }; };
 		BEFDC5331BBB6E1F000262A6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */; settings = {ASSET_TAGS = (); }; };
 		BEFDC5351BBB7D4B000262A6 /* CustomizedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -65,6 +67,8 @@
 		BE7FB4101BD7610800CC14A9 /* RateTabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateTabelCell.swift; sourceTree = "<group>"; };
 		BE8AB9A11BD7048C00FF06C4 /* RatingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
 		BE9D53C91BD7187E0090FCDB /* RatingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingData.swift; sourceTree = "<group>"; };
+		BE9FB0AA1BD9FAEC00372026 /* OrderDetailTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailTableCell.swift; sourceTree = "<group>"; };
+		BE9FB0AC1BD9FB9B00372026 /* OrderDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailData.swift; sourceTree = "<group>"; };
 		BEFDC5321BBB6E1F000262A6 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BEFDC5341BBB7D4B000262A6 /* CustomizedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +157,7 @@
 			children = (
 				BE9D53C91BD7187E0090FCDB /* RatingData.swift */,
 				BE285C581BD9924200A6B678 /* OrderAllData.swift */,
+				BE9FB0AC1BD9FB9B00372026 /* OrderDetailData.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				BE7FB4101BD7610800CC14A9 /* RateTabelCell.swift */,
 				BE285C541BD9739100A6B678 /* OrderVC.swift */,
 				BE285C561BD9918900A6B678 /* OrderAllTableCell.swift */,
+				BE9FB0AA1BD9FAEC00372026 /* OrderDetailTableCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -308,12 +314,14 @@
 				BE64B6321BBBA04600AF99E4 /* UIDevice.swift in Sources */,
 				BE7FB4111BD7610800CC14A9 /* RateTabelCell.swift in Sources */,
 				BE9D53CA1BD7187E0090FCDB /* RatingData.swift in Sources */,
+				BE9FB0AB1BD9FAEC00372026 /* OrderDetailTableCell.swift in Sources */,
 				BEFDC5351BBB7D4B000262A6 /* CustomizedTabBarController.swift in Sources */,
 				BEFDC5331BBB6E1F000262A6 /* LoginVC.swift in Sources */,
 				BE8AB9A21BD7048C00FF06C4 /* RatingVC.swift in Sources */,
 				BE2068021BB7424D0060087A /* ViewController.swift in Sources */,
 				BE285C591BD9924200A6B678 /* OrderAllData.swift in Sources */,
 				BE2068001BB7424D0060087A /* AppDelegate.swift in Sources */,
+				BE9FB0AD1BD9FB9B00372026 /* OrderDetailData.swift in Sources */,
 				BE285C551BD9739100A6B678 /* OrderVC.swift in Sources */,
 				BE285C571BD9918900A6B678 /* OrderAllTableCell.swift in Sources */,
 			);
